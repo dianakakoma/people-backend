@@ -1,0 +1,10 @@
+
+@people.map do |person|
+  {
+    name: person.name,
+    age: person.age,
+    phone: person.phone,
+    education_level: person.education_level,
+
+  }
+end
